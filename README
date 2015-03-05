@@ -1,0 +1,18 @@
+CSE 2421
+lab4
+Name: Chuhan Feng
+Time taken: 2 hr
+Problems encountered:
+I didn't encounter any problem in this lab.
+Questions:
+1. loop $ instruction is used to result a time delay between two continuous
+   shark fin movement. If there is no "loop $" in the code, the program will
+   finish almost immidiately after it begins to run, then we will not be
+   able to experience such an amazing shark simulation like that anymore! 
+   (This is the core technology, which can never let others to know!!!)
+2. The initial value of esi is 22.
+3. The value of esi after second iteration is 21.
+4. The final value of esi is 0.
+5. esi is probably used for establishing loop invarient (esi > 0), which
+   means that the initial value of esi determines how many times the shark
+   fin should move.
